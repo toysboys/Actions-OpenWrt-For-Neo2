@@ -1,10 +1,13 @@
 name: neo2
+
 on:
   release:
     types: [published]
+    
   push:
     branches:
       - master
+
     paths:
       - '.config'
 #  schedule:
